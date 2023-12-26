@@ -9,6 +9,7 @@ export const InputText = (props: InputTextProps) => {
   const handleOnChange = (event: ChangeEvent<HTMLInputElement>) => {
     setInputContent(event.target.value);
   };
+
   return (
     <div>
       <input
