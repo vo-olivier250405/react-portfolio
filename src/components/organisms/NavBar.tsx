@@ -8,5 +8,5 @@ const links: { [key: string]: string } = {
 };
 
 export const NavBar = () => {
-  return <Links links={links} />;
+  return <Links links={links} className="links" />;
 };

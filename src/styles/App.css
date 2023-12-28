@@ -8,3 +8,9 @@
   color: #a0bbbd;
   text-decoration: none;
 }
+
+.links{
+  display: grid;
+  justify-content: left;
+  margin: 1rem;
+}

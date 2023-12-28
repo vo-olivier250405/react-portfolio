@@ -1,5 +1,6 @@
 type linksProps = {
   links: { [key: string]: string };
+  className: string;
 };
 
 export const Links = (props: linksProps) => {
@@ -11,5 +12,5 @@ export const Links = (props: linksProps) => {
       </a>
     );
   }
-  return <div className="links">{res}</div>;
+  return <div className={props.className}>{res}</div>;
 };
