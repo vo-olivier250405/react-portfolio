@@ -1,13 +1,15 @@
 type linksProps = {
-  links: string[];
+  links: { [key: string]: string };
 };
 
 export const Links = (props: linksProps) => {
-  return props.links.map((link: string, index: number) => {
-    return (
-      <a href={link} key={index}>
+  const res: JSX.Element[] = [];
+  for (const link in props.links) {
+    res.push(
+      <a href={props.links[link]} key={link}>
         {link}
       </a>
     );
-  });
+  }
+  return <div className="links">{res}</div>;
 };

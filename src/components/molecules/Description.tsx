@@ -3,6 +3,7 @@ import ProfilePicture from "../../assets/pic1.jpg";
 export const Description = () => {
   return (
     <div>
+      <p>VO OLIVIER</p>
       <ProfilePicture />
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
