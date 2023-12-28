@@ -1,9 +1,10 @@
 import "./styles/App.css";
+import { PortfolioTemplate } from "./screens/PortfolioTemplate";
 
 export const App = () => {
   return (
     <>
-      <h1>Hello world</h1>
+      <PortfolioTemplate />
     </>
   );
 };

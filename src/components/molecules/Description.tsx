@@ -1,10 +1,8 @@
-import ProfilePicture from "../../assets/pic1.jpg";
-
 export const Description = () => {
   return (
     <div>
       <p>VO OLIVIER</p>
-      <ProfilePicture />
+      <img src="src/assets/pic1.jpg" alt="" />
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
         dicta voluptatum excepturi adipisci aspernatur! Atque adipisci placeat

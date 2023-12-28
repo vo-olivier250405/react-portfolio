@@ -1,0 +1,10 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Oswald", bold;
+  font-size: medium;
+  background-color: #021517;
+  color: #a0bbbd;
+  text-decoration: none;
+}
