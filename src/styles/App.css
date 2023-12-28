@@ -2,11 +2,11 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Oswald", bold;
   font-size: medium;
-  background-color: #021517;
-  color: #a0bbbd;
+  background-color: #25362C;
+  color: #9CE0BF ;
   text-decoration: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .links{
