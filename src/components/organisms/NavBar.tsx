@@ -18,21 +18,22 @@ export const NavBar = () => {
   };
   return (
     <div>
-      <button onClick={() => handleOnClick(descriptionTargetScroll)}>
-        Description
-      </button>
-      <button onClick={() => handleOnClick(aboutMeTargetScroll)}>
-        About Me
-      </button>
-      <button onClick={() => handleOnClick(projectsTargetScroll)}>
-        Projects
-      </button>
-      <button onClick={() => handleOnClick(contactMeTargetScroll)}>
-        Contact me
-      </button>
-
       <section ref={descriptionTargetScroll}>
         <Description />
+        <div className="links">
+          <button onClick={() => handleOnClick(descriptionTargetScroll)}>
+            Description
+          </button>
+          <button onClick={() => handleOnClick(aboutMeTargetScroll)}>
+            About Me
+          </button>
+          <button onClick={() => handleOnClick(projectsTargetScroll)}>
+            Projects
+          </button>
+          <button onClick={() => handleOnClick(contactMeTargetScroll)}>
+            Contact me
+          </button>
+        </div>
       </section>
       <section ref={aboutMeTargetScroll}>
         <h1>ABOUT ME</h1>
