@@ -9,13 +9,6 @@
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.links{
-  display: grid;
-  justify-content: left;
-  margin: 1rem;
-}
-
-
 /* .details-description{
   display: grid;
   justify-items: right;
@@ -60,4 +53,14 @@ section{
   margin: auto;
   padding: 1rem;
   max-width: 50rem;
+}
+
+.links{
+  display: grid;
+  margin: 1rem;
+  position: fixed;
+}
+
+.links a{
+  padding: 1rem
 }

@@ -6,10 +6,7 @@ export const PortfolioTemplate = () => {
   return (
     <>
       <body>
-        <section>
-          <Description />
-          <NavBar />
-        </section>
+        <NavBar />
       </body>
       <footer>
         <SocialMedia />
