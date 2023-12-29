@@ -14,3 +14,50 @@
   justify-content: left;
   margin: 1rem;
 }
+
+
+/* .details-description{
+  display: grid;
+  justify-items: right;
+  padding: 1rem;
+  margin: 1rem;
+} */
+
+body{
+  display: grid;
+  justify-content: center;
+}
+
+section{
+  height: 100vh;
+}
+
+.details{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 1rem;
+}
+
+.details h1{
+  font-size: 10rem;
+}
+
+.details-description-image{
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.details-description-image img{
+  border-radius: 10px;
+  width: 20rem;
+  margin: auto;
+}
+
+.details-description-image p{
+  margin: auto;
+  padding: 1rem;
+  max-width: 50rem;
+}
