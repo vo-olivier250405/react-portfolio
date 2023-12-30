@@ -1,12 +1,11 @@
-import { NavBar, SocialMedia } from "../components/organisms";
-import { Description } from "../components/molecules";
+import { SocialMedia, AllSections } from "../components/organisms";
 import { Copyrigths } from "../components/atoms";
 
 export const PortfolioTemplate = () => {
   return (
     <>
       <body>
-        <NavBar />
+        <AllSections />
       </body>
       <footer>
         <SocialMedia />

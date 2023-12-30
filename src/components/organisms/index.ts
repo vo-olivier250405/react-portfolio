@@ -1,4 +1,4 @@
-import { NavBar } from "./NavBar";
+import { AllSections } from "./AllSections";
 import { SocialMedia } from "./SocialMedia";
 
-export { NavBar, SocialMedia };
+export { AllSections, SocialMedia };

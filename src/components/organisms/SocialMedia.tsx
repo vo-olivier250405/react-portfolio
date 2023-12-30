@@ -6,5 +6,5 @@ const links: { [key: string]: string } = {
 };
 
 export const SocialMedia = () => {
-  return <Links links={links} className="social-media" onClick={() => {}} />;
+  return <Links links={links} className="social-media" />;
 };
