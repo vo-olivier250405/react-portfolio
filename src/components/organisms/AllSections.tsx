@@ -12,9 +12,9 @@ export const AllSections = () => {
 
   return (
     <div>
-      <section ref={allScrollsTarget["homeTargetScroll"]}>
+      <NavBar allScrollTargets={allScrollsTarget} />
+      <section ref={allScrollsTarget["homeTargetScroll"]} className="home">
         <Description />
-        <NavBar allScrollTargets={allScrollsTarget} />
       </section>
       <section ref={allScrollsTarget["aboutMeTargetScroll"]}>
         <h1>ABOUT ME</h1>
