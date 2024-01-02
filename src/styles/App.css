@@ -58,7 +58,7 @@ section{
   padding: 1rem;
   max-width: fit-content;
   max-height: fit-content;
-  background-color: #139ee0;
+  background-color: transparent;
   position: fixed;
 }
 
@@ -99,26 +99,45 @@ a{
 }
 
 .story-container{
-  background-color: red;
-  grid-template-columns: 8ch auto;
+  background-color: grey;
+  display: grid;
   margin: 1rem;
   padding: 5rem;
-  height: 80vh;
+  height: 75vh;
   width: 190vh;
+  /* border-top-left-radius: 255px 15px;
+  border-top-right-radius: 15px 225px;
+  border-bottom-right-radius: 225px 15px;
+  border-bottom-left-radius:15px 255px;
+  border:solid 5px black; */
+}
+
+.letterhead{
+  display: flex;
+  justify-content: space-between;
 }
 
 .compartment-1{
-  background-color: blue;
-  padding: 5rem;
+  background-color: white;
+  border: 2px solid black;
+  padding: 10rem;
+  padding-right: 50rem;
+  margin: 1rem;
+  
 }
 
 .compartment-2{
-  background-color: yellow;
-  padding: 5rem;
+  background-color: white;
+  border: 2px solid black;
+  padding: 10rem;
+  padding-left: 35rem;
+  margin: 1rem;
 
 }
 .compartment-3{
-  background-color: green;
-  padding: 5rem;
+  background-color: white;
+  border: 2px solid black;
+  padding: 8rem;
+  margin: 1rem;
   
 }

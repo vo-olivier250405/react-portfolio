@@ -1,7 +1,10 @@
 import { AnimatePresence, motion } from "framer-motion";
 import { useState } from "react";
 
-export const PageWrapper = ({ children }: { children: any }) => {
+type AnimationProps = {
+  children: any;
+};
+export const PageWrapper = (props: AnimationProps) => {
   return (
     <>
       <AnimatePresence>
@@ -10,26 +13,26 @@ export const PageWrapper = ({ children }: { children: any }) => {
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.5 }}
         >
-          {children}
+          {props.children}
         </motion.div>
       </AnimatePresence>
     </>
   );
 };
 
-export const HoverAnimation = ({ children }: { children: any }) => {
+export const HoverAnimation = (props: AnimationProps) => {
   return (
     <>
       <AnimatePresence>
         <motion.div whileHover={{ scale: 2 }} whileTap={{ scale: 0.9 }}>
-          {children}
+          {props.children}
         </motion.div>
       </AnimatePresence>
     </>
   );
 };
 
-export const RotateOnClick = ({ children }: { children: any }) => {
+export const RotateOnClick = (props: AnimationProps) => {
   const [isActive, setIsActive] = useState(false);
   return (
     <motion.div
@@ -39,7 +42,16 @@ export const RotateOnClick = ({ children }: { children: any }) => {
         rotate: isActive ? 90 : 0,
       }}
     >
-      {children}
+      {props.children}
     </motion.div>
+  );
+};
+
+export const Transition = () => {
+  return (
+    <motion.div
+      animate={{ x: 100 }}
+      transition={{ ease: "easeOut", duration: 2 }}
+    />
   );
 };

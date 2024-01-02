@@ -4,12 +4,14 @@ export const MyStory = () => {
   return (
     <PageWrapper>
       <div className="story-container">
-        <PageWrapper>
-          <div className="compartment-1"></div>
-        </PageWrapper>
-        <PageWrapper>
-          <div className="compartment-2"></div>
-        </PageWrapper>
+        <div className="letterhead">
+          <PageWrapper>
+            <div className="compartment-1"></div>
+          </PageWrapper>
+          <PageWrapper>
+            <div className="compartment-2"></div>
+          </PageWrapper>
+        </div>
         <PageWrapper>
           <div className="compartment-3"></div>
         </PageWrapper>
