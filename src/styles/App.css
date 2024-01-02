@@ -3,96 +3,57 @@
   padding: 0;
   box-sizing: border-box;
   font-size: medium;
-  background-color: #25362C;
-  color: #9CE0BF ;
   text-decoration: none;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
 }
-
-/* .details-description{
-  display: grid;
-  justify-items: right;
-  padding: 1rem;
-  margin: 1rem;
-} */
 
 body{
-  display: grid;
-  justify-content: center;
+  background-color: #181818;
+  color: #fff;
 }
-
 section{
   height: 100vh;
 }
 
-.details{
-  background-color: transparent;
-  display: grid;
+.bubble-text{
+  background:#139ee0;
+  color:#fff;
+  padding:7px 15px;
+  border-radius:2px;
+  width:350px;
+  padding: 2rem;
+  margin-top: 2rem;
 }
 
-.details-name-description{
-  padding: 5rem;
-  border: 1px solid #9CE0BF;
-  border-radius: 10px;
-  background-color: rgb(7, 27, 10);
-  position: relative;
-  display: grid;
-  max-width: 50%;
-  left: 10%;
-  top: 16%
-}
-.details-name-description a{
-  max-width: fit-content;
-  padding: 1.5rem;
-  margin-top: 1rem ;
-  border:1px solid #9CE0BF;
-  border-radius: 10px;
-}
-
-.details-name-description a:hover{
-  background-color: #6fac8f;
-  color: #25362C;
-}
-.details-name-description h1, p{
-  background-color: transparent;
-  font-size: 2rem;
-}
-
-.details-name-description span{
-  font-size: 2.5rem;
-  background-color: transparent;
-  -webkit-text-fill-color: transparent;
-  -webkit-text-stroke: 1px #9CE0BF;
-}
-.details-profile-picture{
-  max-width: fit-content;
-  background-color: red;
-  position: relative;
+.bubble-text::before{
+  content:""; 
+  border-left:20px solid transparent;
+  border-right:20px solid transparent;
+  border-bottom: 20px solid #139ee0;
   top: 30%;
-  left: 70%;
+  position: absolute;
+  margin: auto;
   }
 
-.blur{
-  box-shadow: 0 0 300px 80px #9CE0BF;
+.details{
+  display: grid;
+  justify-content: center;
+  background-color: red;
+  padding: 1.5rem;
 }
 
-.blur-black{
-  box-shadow: 0 0 300px 100px black;
-}
 .links{
   display: grid;
-  margin: 1rem;
+  justify-content: left;
+  padding: 1rem;
+  max-width: fit-content;
+  max-height: fit-content;
+  background-color: #139ee0;
   position: fixed;
-  left: 0;
-  top: 4em;
-  background-color: black;
-  border-radius: 10px;
-  border: #9CE0BF 1px solid;
 }
 
 .buttons{
-  border: 1px solid;
-  border-radius: 10px;
-  margin: 1rem;
   padding: 1rem;
+  margin: 0.5rem;
 }
