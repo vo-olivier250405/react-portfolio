@@ -20,10 +20,10 @@ section{
   background:#139ee0;
   color:#fff;
   padding:7px 15px;
-  border-radius:2px;
-  width:350px;
+  border-radius: 3px;
   padding: 2rem;
   margin-top: 2rem;
+  width: fit-content;
 }
 
 .bubble-text::before{
@@ -31,16 +31,25 @@ section{
   border-left:20px solid transparent;
   border-right:20px solid transparent;
   border-bottom: 20px solid #139ee0;
-  top: 30%;
-  position: absolute;
-  margin: auto;
+  top: -4em;
+  left: 45%;
+  position: relative;
   }
 
 .details{
   display: grid;
   justify-content: center;
-  background-color: red;
-  padding: 1.5rem;
+  padding: 5rem;
+}
+
+.details p{
+  width: 40rem;
+}
+
+.details img{
+  background-color: #139ee0;
+  position: relative;
+  left: 30%;
 }
 
 .links{
@@ -56,4 +65,12 @@ section{
 .buttons{
   padding: 1rem;
   margin: 0.5rem;
+}
+
+.text-h1{
+  font-size: 2rem;
+}
+span{
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 1px #fff;
 }
