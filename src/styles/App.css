@@ -31,17 +31,38 @@ section{
 }
 
 .details-name-description{
-  background-color: transparent;
+  padding: 5rem;
+  border: 1px solid #9CE0BF;
+  border-radius: 10px;
+  background-color: rgb(7, 27, 10);
   position: relative;
   display: grid;
-  padding: 1rem;
   max-width: 50%;
   left: 10%;
-  top: 500%;
+  top: 16%
+}
+.details-name-description a{
+  max-width: fit-content;
+  padding: 1.5rem;
+  margin-top: 1rem ;
+  border:1px solid #9CE0BF;
+  border-radius: 10px;
 }
 
+.details-name-description a:hover{
+  background-color: #6fac8f;
+  color: #25362C;
+}
 .details-name-description h1, p{
   background-color: transparent;
+  font-size: 2rem;
+}
+
+.details-name-description span{
+  font-size: 2.5rem;
+  background-color: transparent;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 1px #9CE0BF;
 }
 .details-profile-picture{
   max-width: fit-content;
