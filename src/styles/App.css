@@ -67,10 +67,58 @@ section{
   margin: 0.5rem;
 }
 
+.story-button{
+  margin: auto;
+  padding: 1rem;
+}
+
 .text-h1{
   font-size: 2rem;
 }
+
 span{
   -webkit-text-fill-color: transparent;
   -webkit-text-stroke: 1px #fff;
+}
+
+.grid-center-padding5rem{
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  padding: 5rem;
+}
+
+a{
+  text-decoration: none;
+  background-color: #fff;
+  padding: 1rem;
+  margin: auto;
+  border: 1px solid #0000;
+  border-radius: 3px;
+  color: #181818;
+}
+
+.story-container{
+  background-color: red;
+  grid-template-columns: 8ch auto;
+  margin: 1rem;
+  padding: 5rem;
+  height: 80vh;
+  width: 190vh;
+}
+
+.compartment-1{
+  background-color: blue;
+  padding: 5rem;
+}
+
+.compartment-2{
+  background-color: yellow;
+  padding: 5rem;
+
+}
+.compartment-3{
+  background-color: green;
+  padding: 5rem;
+  
 }

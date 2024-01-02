@@ -1,5 +1,5 @@
 import { RefObject, useRef } from "react";
-import { Description, NavBar } from "../molecules";
+import { AboutMe, Description, NavBar } from "../molecules";
 
 export const AllSections = () => {
   const allScrollsTarget: { [key: string]: RefObject<HTMLElement> } = {
@@ -17,7 +17,7 @@ export const AllSections = () => {
         <Description />
       </section>
       <section ref={allScrollsTarget["aboutMeTargetScroll"]}>
-        <h1>ABOUT ME</h1>
+        <AboutMe />
       </section>
       <section ref={allScrollsTarget["projectsTargetScroll"]}>
         <h1>PROJECTS</h1>
