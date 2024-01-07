@@ -105,11 +105,7 @@ a{
   padding: 5rem;
   height: 75vh;
   width: 190vh;
-  /* border-top-left-radius: 255px 15px;
-  border-top-right-radius: 15px 225px;
-  border-bottom-right-radius: 225px 15px;
-  border-bottom-left-radius:15px 255px;
-  border:solid 5px black; */
+ 
 }
 
 .letterhead{
@@ -117,27 +113,23 @@ a{
   justify-content: space-between;
 }
 
-.compartment-1{
-  background-color: white;
-  border: 2px solid black;
-  padding: 10rem;
-  padding-right: 50rem;
+.letterhead-child{
+  background-color: #fff;
+  color: #181818;
+  padding: 1rem;
   margin: 1rem;
-  
 }
 
-.compartment-2{
-  background-color: white;
-  border: 2px solid black;
-  padding: 10rem;
-  padding-left: 35rem;
-  margin: 1rem;
-
-}
 .compartment-3{
-  background-color: white;
-  border: 2px solid black;
-  padding: 8rem;
-  margin: 1rem;
-  
+  background-color: #fff;
+  color: #181818;
+}
+
+p.frame{
+  padding: 0.5rem;
+  border-top-left-radius: 255px 15px;
+  border-top-right-radius: 15px 225px;
+  border-bottom-right-radius: 225px 15px;
+  border-bottom-left-radius:15px 255px;
+  border:solid 2px black;
 }
