@@ -133,3 +133,13 @@ p.frame{
   border-bottom-left-radius:15px 255px;
   border:solid 2px black;
 }
+
+.projects{
+  display: grid;
+  justify-content: center;
+}
+
+.projects-child{
+  margin: 1rem;
+  padding: 1rem;
+}
